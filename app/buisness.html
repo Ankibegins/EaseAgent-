@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Info</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+    <!-- Sidebar (Same as Dashboard) -->
+    <div class="sidebar">
+        <h2 class="logo">EaseAgent</h2>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li class="active"><a href="business.html">Business Info</a></li>
+            <li><a href="logs.html">Logs</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="404.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Business Info Form -->
+    <div class="content">
+        <div class="business-header">
+            <h1>Business Info</h1>
+        </div>
+
+        <form class="business-form">
+            <label for="businessName">Business Name</label>
+            <input type="text" id="businessName" placeholder="Enter business name">
+
+            <label for="ownerName">Owner Name</label>
+            <input type="text" id="ownerName" placeholder="Enter owner name">
+
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="Enter location">
+
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" placeholder="Enter contact number">
+
+            <button type="submit">Save Info</button>
+        </form>
+    </div>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
